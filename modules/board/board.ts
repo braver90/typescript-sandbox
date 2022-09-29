@@ -12,7 +12,7 @@ const createBoard = () => {
     }
     const span = document.createElement('span');
     span.innerHTML = text;
-    innerBoard.append(text);
+    innerBoard.append(span);
   };
   return { write };
 };
