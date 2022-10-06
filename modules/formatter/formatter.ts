@@ -1,5 +1,3 @@
-import regions from './regions';
-
 export default class Formatter {
   private intFormatter: Intl.NumberFormat;
   private currencyFormatter: Intl.NumberFormat;
