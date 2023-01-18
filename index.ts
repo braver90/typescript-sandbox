@@ -1,6 +1,7 @@
 // Import stylesheets
 import createBoard from './modules/board/board';
 import Formatter from './modules/formatter/formatter';
+import ProxyModule from './modules/proxy/proxy';
 import './style.css';
 
 // Write TypeScript code!
@@ -15,3 +16,5 @@ const number = formatter.toDecimal(311221110.3333, {
 const board = createBoard();
 board.write(number);
 board.write(formatter.toTimeStamp(new Date()));
+
+ProxyModule();
